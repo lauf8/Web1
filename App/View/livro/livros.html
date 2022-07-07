@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/default.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/sidebar.css" />
+    <link rel="stylesheet" href="./style/conteudoLivro.css" />
+    <title>Livros</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <div class="logo">
+          <a class="logo-foto" href="./index.html">
+            <img src="./img/LOGO_BIIBLIOTECA.png" />
+          </a>
+        </div>
+      </h1>
+      <div class="actions">
+        <ul>
+          <li>
+            <a href="./Login.html">Login</a>
+          </li>
+          <li>
+            <a href="#">Cadastrar</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="conteiner">
+      <div class="navigation">
+        <ul class="navigation-list">
+          <li>
+            <a href="./livros.html">
+              <img class="nav-img" src="./img/Logo Livrós.png" alt="" />
+              <span>Livros</span>
+            </a>
+          </li>
+          <li>
+            <a href="./autor.html">
+              <img class="nav-img" src="./img/Logo Autor.png" alt="" />
+              <span>Autor</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-img" src="./img/Logo Categoria.png" alt="" />
+              <span>Categoria</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-img" src="./img/Logo Armário.png" alt="" />
+              <span>Armário</span>
+            </a>
+          </li>
+          <li>
+            <a href="./Usuários.html">
+              <img class="nav-img" src="./img/Logo Usuário.png" alt="" />
+              <span>Usuário</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-img" src="./img/Logo Emprétimo.png" alt="" />
+              <span>Empréstimo</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="conteudoLivros">
+        <div class="adicionarEPesquisar">
+          <div class="botaoAdd">
+            <a class="adicionarLivro" href="./CadastraLivro.html"
+              >Adicionar Livro</a
+            >
+          </div>
+          <div>
+            <div id="divBusca">
+              <input type="text" id="txtBusca" placeholder="Buscar..." /><img
+                src="./img/icon seach.png"
+                id="btnBusca"
+                alt="Buscar"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="tabelaLivros">
+          <hr />
+          <table class="tabela" border="1">
+            <thead>
+              <tr>
+                <td>ID</td>
+                <td>Nome</td>
+                <td>Quantidade de Paginas</td>
+                <td>Autor</td>
+                <td>Editora</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tr>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>
+                <div class="botoes crud">
+                  <a href=""><img src="./img/view.png" alt="" /></a>
+                  <a href=""><img src="./img/edit.png" alt="" /></a>
+                  <a href=""><img src="./img/delete.png" alt="" /></a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
